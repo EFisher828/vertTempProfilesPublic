@@ -1,0 +1,90 @@
+#archiveInputDiv {
+	display: none;
+}
+#archiveSubmit {
+	cursor: pointer;
+	border: none;
+	border-radius: 0.25em;
+	background-color: #fff;
+	background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+body {
+	background-color: #27272C;
+	color: white;
+	font-family: Verdana;
+	margin: 0px;
+}
+.chartDiv {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#chartMode {
+	padding-top: 15%;
+	padding-bottom: 12%;
+}
+#datetimeInput {
+	margin-top: 4%;
+}
+header {
+	background-color: white;
+	color: black;
+}
+#headerTitle {
+	font-size: 250%;
+	text-align: center;
+	padding: 2%;
+	margin: 0%;
+	display: block;
+}
+.infoP {
+	text-align: center;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#LLR {
+	text-align: center;
+}
+#loadingGif{
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.select {
+  width: 90%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  text-align: center;
+}
+#stationMetTitle {
+	text-align: center;
+	font-size: 130%;
+}
+#textInput {
+	width: 83%;
+  	border: 1px solid var(--select-border);
+  	border-radius: 0.25em;
+  	padding: 0.25em 0.5em;
+  	font-size: 1rem;
+  	cursor: text;
+	line-height: 1.1;
+	background-color: #fff;
+	background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+	margin-top: 5%;	
+}
+#pageTitle {
+	font-size: 175%;
+	text-align: center;
+	padding-top: 2%;
+}
